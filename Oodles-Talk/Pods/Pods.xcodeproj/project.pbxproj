@@ -51,6 +51,13 @@
 			remoteGlobalIDString = 12E2BC28C62976C425F4B71C2723F0B1;
 			remoteInfo = CocoaLumberjack;
 		};
+		19A133711ED6BE3D0076E35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A1336D1ED6BE3C0076E35E /* MSCRTC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C80AA761AAB5DF300F21FFA;
+			remoteInfo = MSCRTC;
+		};
 		BE88287FC6F91ED83C117156D58B328F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -67,6 +74,7 @@
 		0ABE53AD1CB6402C6B30B928B876ED9A /* Pods-AppRTC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; lineEnding = 0; path = "Pods-AppRTC-acknowledgements.markdown"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		14DD2D11EDEA89CBF3B04354E2BDC1A6 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
 		161DFB6BC8B61B7C30D930023E4D40EA /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		19A1336D1ED6BE3C0076E35E /* MSCRTC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSCRTC.xcodeproj; path = ../MSCRTC.xcodeproj; sourceTree = "<group>"; };
 		1DBFD09F91217297B2A571B6E7AAE829 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
 		1DC7F7F5362514C78C868616D0D22307 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		207F337A6F3651EFBC40F54211C456D3 /* Pods-AppRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRTC.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +188,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		19A1336E1ED6BE3C0076E35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A133721ED6BE3D0076E35E /* MSCRTC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4F8723475E08B8A07FD1C9738903B523 /* Default */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +218,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				19A1336D1ED6BE3C0076E35E /* MSCRTC.xcodeproj */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				F2C2357405752C4D628A2203FC9CA2A8 /* Pods */,
@@ -423,6 +440,12 @@
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = DB7AFE13AE04FED7FE58112054852E24 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19A1336E1ED6BE3C0076E35E /* Products */;
+					ProjectRef = 19A1336D1ED6BE3C0076E35E /* MSCRTC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				12E2BC28C62976C425F4B71C2723F0B1 /* CocoaLumberjack */,
@@ -431,6 +454,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		19A133721ED6BE3D0076E35E /* MSCRTC.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MSCRTC.app;
+			remoteRef = 19A133711ED6BE3D0076E35E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07B3DAD4C9BADFD50201B307FF33120C /* Sources */ = {
